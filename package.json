@@ -1,0 +1,23 @@
+{
+  "name": "thank_you_action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandurijal03/thank_you_action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandurijal03/thank_you_action/issues"
+  },
+  "homepage": "https://github.com/sandurijal03/thank_you_action#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.33.4"
+  }
+}
